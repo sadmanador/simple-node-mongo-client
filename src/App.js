@@ -44,6 +44,7 @@ function App() {
       </form>
 
       <div>
+        <h2>NO. of users: {users.length}</h2>
         {users.map((user) => (
           <h3 key={user.id}>
             {user.name}___{user.email}
